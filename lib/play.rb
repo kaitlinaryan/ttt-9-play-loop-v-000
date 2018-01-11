@@ -38,8 +38,8 @@ end
 # Define your play method below
 play(board)
 counter = 0
-until counter == 20
-  turn(board)
+while counter < 20
+turn(board)
   counter += 1
 end
 end
